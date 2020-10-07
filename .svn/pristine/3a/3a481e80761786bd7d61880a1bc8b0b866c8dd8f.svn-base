@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="border">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3810438a15.js" crossorigin="anonymous"></script>
+    <title>Титульна стрінка - Мій блог</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class = "site-header">
+          <h1 class="site-title">Scriptor</h1>
+          <nav class="site-nav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </header>
+  </div>
+
+<footer>
+      <div class="icon">
+          <ul>
+            <li><a href="#" class="sb"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-git"></i></a></li>
+          </ul>
+   &copy; Papakin 2020р 3151
+ </footer>
+
+</body>
+</html>

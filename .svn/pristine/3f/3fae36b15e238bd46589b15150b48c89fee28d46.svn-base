@@ -1,0 +1,52 @@
+<?php
+    require_once 'functions.php';
+    $postId = $_GET['article'];
+    if (empty($postId)) {
+        header('Location: index.php');
+        exit();
+    }
+    $db = getDbConnection();
+    $postId = SQLite3::escapeString($postId);
+    $posts = $db->query("SELECT * from posts WHERE id='{$postId}'");
+    if (false === $posts) {
+        http_response_code(404);
+        exit('Database query error');
+    }
+
+    $post = $posts->fetchArray(SQLITE3_ASSOC);
+    if (!$post) {
+        http_response_code(404);
+        exit('Article not found');
+    }
+    $pageTitle = $post['title'];
+    $currentPage = 'article';
+
+?>
+
+<?php require 'header.php'; ?>
+
+
+<div class="container">
+    <main>
+        <?php { ?>
+            <article class="Posts">
+                <header>
+                    <?php $created = $post['date']; ?>
+                    <time class="time" datetime="<?=$created; ?>">
+                        <?=date('d F Y', strtotime($created)); ?></time>
+                    <h2 class="Title_Posts"><a href="article.php?article=<?= $post['id']; ?>">
+                            <?= htmlspecialchars($post['title']); ?></a></h2>
+                    <div class="article_link">Posted by
+                        <a href="article.php">Dennis Brooks</a>
+                    </div>
+                    <img src="<?= $post['img']; ?>" alt="img_1">
+                </header>
+                <div class="article_content">
+                    <?= nl2br(htmlspecialchars($post['content'])); ?>
+                </div>
+            </article>
+        <?php } ?>
+        <hr id="bottom-line">
+    </main>
+    <?php require 'footer.php'; ?>
+</div>

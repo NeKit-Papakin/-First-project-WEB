@@ -1,0 +1,152 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+A {
+  color: blue;
+  text-decoration: none;
+}
+html{
+  border-width: 10px;
+  border-style: solid;
+  border-color: #2d72d9;
+
+}
+body{
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  width: 758px;
+  height: 3440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 52px;
+
+}
+
+ul>li {
+list-style-type: none;
+display: inline-block;
+
+}
+
+.site-header{
+  color: #877d7c;
+  background-color: white;
+  overflow: hidden;
+
+}
+.site-nav{
+  float: right;
+}
+
+
+
+.site-nav .active a {
+  color: red;
+}
+
+.site-nav li{
+  display: inline;
+}
+
+.site-nav li a{
+  text-decoration: none;
+}
+
+.site-nav li:hover a {
+  text-decoration:underline;
+}
+
+.site-title {
+  float: left;
+  color: black;
+}
+.site-footer {
+  margin-top: 52px;
+  border-bottom: 1px solid #bcc2be;
+  border-top: 1px solid #bcc2be;
+  height: 180px;
+}
+.Foreword {
+  font-style: italic;
+  font-family: "Times New Roman";
+  margin-top: 50px;
+  font-size: 26px;
+  text-align: center;
+  color: #877d7c;
+
+}
+.div_line {
+  margin-top: 40px;
+  border-bottom: 1px solid  #bcc2be;
+}
+.time {
+  font-size: 14px;
+  color: #877d7c;
+}
+.Title_Posts {
+  font-family: "Times New Roman";
+  font-weight: bold;
+  margin-top: 23px;
+  font-size: 35px;
+  color: black;
+}
+.article_link{
+  margin-top: 28px;
+  margin-bottom: 23px;
+  font-size: 15px;
+  color: #877d7c;
+}
+.article_content {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-size: 18px;
+  color: #877d7c;
+}
+.Continue_one {
+  margin-top: 28px;
+  margin-bottom: 42px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Posts {
+  text-align: left;
+  margin-top: 64px;
+  border-bottom: 1px solid  #bcc2be;
+}
+
+.Page {
+  text-align: center;
+  margin-top: 48px;
+  border-bottom: 1px solid #bcc2be;
+}
+.div5 {
+  float: inherit;
+  margin-bottom: 52px;
+  font-size: 18px;
+  font-style: normal;
+  color: #877d7c;
+  display: inline-block;
+  width: 87%;
+
+}
+.Older_posts {
+display: inline-block;
+}
+
+.icon {
+  margin-top: 32px;
+  margin-top: 32px;
+  text-align: left;
+}
+.sb {
+  margin-bottom: 22px;
+  display: inline-block;
+  color: #877d7c;
+  height: 40px;
+  width: 40px;
+
+}

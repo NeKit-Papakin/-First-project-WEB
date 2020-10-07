@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3810438a15.js" crossorigin="anonymous"></script>
+    <title>Титульна стрінка - Мій блог</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class = "site-header">
+          <h1 class="site-title">Scriptor</h1>
+          <nav>
+            <ul class="site-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </header>
+  </div>
+  <div class="div_line"></div>
+  <div class="Foreword">
+  Scriptor is a minimal, clean,
+     modern & responsive Ghost theme for writers
+</div>
+<div class="div_line"></div>
+
+  <main>
+      <article class="Posts">
+          <header>
+              <time class="time" datetime="2020-01-13 13:34:45 ">13 september 2020</time>
+              <h2 class="Title_Posts" >Welcome to Ghost Blog!</h2>
+            <div class="article_link">Posted by
+              <a href="article.html">Dennis Brooks</a> in
+              <a href="article1.html">Dennis Brooks</a>
+            </div>
+              <img src="img_1.png" alt="img_1">
+          </header>
+          <div class="article_content">Hey! Welcome to Ghost, it's great to have you :)
+              We know that first impressions are important, so we've populated
+              your new site with some initial Getting Started posts that will..</div>
+        <footer>
+          <div class="Continue_one">
+            <a href="#">Continue reding →</a>
+          </div>
+        </footer>
+      </article>
+
+      <article class="Posts">
+          <header>
+              <time class="time" datetime="2020-01-20 13:34:45 ">20 september 2020</time>
+              <h2 class="Title_Posts">The Advantages & Disadvantages of Working from Home</h2>
+            <div class="article_link">Posted by
+              <a href="about.html">Dennis Brooks</a> in
+              <a href="about.html">Tips</a>
+            </div>
+              <img src="img_3.png" alt="img_3">
+          </header>
+          <div class="article_content">A work at home parent is an entrepreneur who works from
+             home and integrates parenting into his or her business activities.
+             They are sometimes referred to as a WAHM (work...
+          </div>
+          <footer>
+            <div class="Continue_one">
+              <a href="#">Continue reding →</a>
+            </div>
+          </footer>
+      </article>
+
+
+      <article class="Posts">
+        <header>
+            <time class="time" datetime="2020-01-20 13:34:45 ">20 september 2020</time>
+            <h2 class="Title_Posts">Basic Rules For Walking In The Mountains</h2>
+          <div class="article_link">Posted by
+              <a href="about.html">Dennis Brooks</a> in
+              <a href="about.html">Trevel</a>
+          </div>
+              <img src="img_3.png" alt="img_3">
+        </header>
+          <div class="article_content">In the United States, Canada, the Republic of Ireland,
+            and United Kingdom, hiking refers to walking outdoors on a trail,
+            or off trail, for recreational purposes. A day hike refers.</div>
+        <footer>
+          <div class="Continue_one">
+            <a href="#">Continue reding →</a>
+          </div>
+        </footer>
+      </article>
+
+  <article class="Page">
+      <div class="div5">Page 1 of 2</div>
+      <div class="Older_posts">
+          <a href="#">Older posts ></a>
+      </div>
+  </article>
+  </main>
+  <footer>
+      <div class="icon">
+          <ul>
+            <li><a href="#" class="sb"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-git"></i></a></li>
+          </ul>
+   &copy; Papakin 2020р 3151
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Титульна стрінка - Мій блог</title>
+</head>
+<body>
+<header>
+    <img src="logo1.png" alt="Logo site">
+    <h1>Мій блог</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Титульна стрінка</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main>
+    <article>
+        <header>
+            <h2><a href="article1.html">Стаття №1</a></h2>
+        </header>
+
+        <div>
+            <p>История первого автомобиля началась в 1768 году вместе с созданием паросиловых машин, способных перевозить человека...</p>
+            <p>Изобретатели-первопроходцы...</p>
+        </div>
+        <footer>
+            Опубликовано:
+            <time datetime="2020-02-13 13:34:45 ">13.02.2020</time>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <h2><a href="article.html">Стаття №2</a></h2>
+        </header>
+
+        <div>
+            <p>Today we have finished close beta testing of macOS version.
+                Thank you all for your help and time to give us feedback.
+                It's all highly appreciated! There's still lots of work to do,
+                thus Opera GX both on macOS and Windows are still both in early access.
+                You can read more about the new build on our blog along with some
+                interesting findings about gamers. In addition we have designed
+                new wallpapers to make Opera GX look even better. Head over
+                to the gallery and check them out....
+            </p>
+            <p>
+                There are two brand new features in this update: Network Limiter
+                and Release Calendar. Let's start with Network Limiter. You will
+                find it in the GX Control panel along with CPU and Memory Limiter.
+                It allows you to set the maximum download and upload speed that Opera GX can achieve.
+                Values are expressed in MB/s and KB/s which is pretty reasonable measurement
+                when we're talking about download and upload. However when you perform network
+                speed tests (for instance: speedtest.net) results are expressed in Mbps and Kbps,
+                which are bits not bytes. There are 8 bits in each byte so 1 MB/s = 8 Mbps...
+            </p>
+        </div>
+        <footer>
+            Опубликовано:
+            <time datetime="2020-01-13 13:34:45 ">13.01.2020</time>
+        </footer>
+    </article>
+</main>
+<footer>&copy; Papakin 2020р 3151</footer>
+</body>
+</html>

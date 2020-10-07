@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3810438a15.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="footer_main_header">
+    <header class = "site-header">
+      <h1 class="site-title">Scriptor</h1>
+      <nav class="site-nav">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+  <footer class="site-footer">
+    <div class="div1">
+    Scriptor is a minimal, clean,
+       modern & responsive Ghost theme for writers
+</div>
+
+  </footer>
+</div>
+<div class="box_one">
+    <time class="time1" datetime="2020-01-13 13:34:45 ">13 september 2020</time>
+    <div class="div2">Welcome to Ghost Blog!</div>
+    <div class="div3">Posted by
+    <a href="about.html">Dennis Brooks</a> in
+    <a href="about.html">Dennis Brooks</a></div>
+    <img src="img_1.png" alt="img_1">
+    <div class="div4">Hey! Welcome to Ghost, it's great to have you :)
+        We know that first impressions are important, so we've populated
+        your new site with some initial Getting Started posts that will..</div>
+    <div class="Continue_one"><a href="#">Continue reding →</a></div>
+</div>
+<div class="box_two">
+    <time class="time1" datetime="2020-01-20 13:34:45 ">20 september 2020</time>
+    <div class="div2">The Advantages & Disadvantages of Working from Home</div>
+    <div class="div3">Posted by
+    <a href="about.html">Dennis Brooks</a> in
+    <a href="about.html">Tips</a></div>
+    <img src="img_2.png" alt="img_2">
+    <div class="div4">A work at home parent is an entrepreneur who works from
+       home and integrates parenting into his or her business activities.
+       They are sometimes referred to as a WAHM (work...</div>
+    <div class="Continue_one"><a href="#">Continue reding →</a></div>
+</div>
+<div class="box_three">
+    <time class="time1" datetime="2020-01-20 13:34:45 ">20 september 2020</time>
+    <div class="div2">Basic Rules For Walking In The Mountains</div>
+    <div class="div3">Posted by
+    <a href="about.html">Dennis Brooks</a> in
+    <a href="about.html">Trevel</a></div>
+    <img src="img_3.png" alt="img_3">
+    <div class="div4">In the United States, Canada, the Republic of Ireland,
+      and United Kingdom, hiking refers to walking outdoors on a trail,
+      or off trail, for recreational purposes. A day hike refers.</div>
+    <div class="Continue_one"><a href="#">Continue reding →</a></div>
+</div>
+<div class="box_four">
+    <div class="div5">Page 1 of 2</div>
+    <div class="Older_posts"> <a href="#">Older posts ></a></div>
+</div>
+<div class="icon">
+  <ul>
+    <li><a href="#"class="sb"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"class="sb"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#"class="sb"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"class="sb"><i class="fab fa-pinterest-p"></i></a></li>
+    <li><a href="#"class="sb"><i class="fab fa-google-plus-g"></i></a></li>
+    <li><a href="#"class="sb"><i class="fab fa-git"></i></a></li>
+  </ul>
+  <footer>&copy; Papakin 2020р 3151</footer>
+</div>
+  </body>
+</html>

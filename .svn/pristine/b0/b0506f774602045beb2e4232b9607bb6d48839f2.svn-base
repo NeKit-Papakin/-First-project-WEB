@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="border">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3810438a15.js" crossorigin="anonymous"></script>
+    <title>Титульна стрінка - Мій блог</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class = "site-header">
+          <h1 class="site-title">Scriptor</h1>
+          <nav class="site-nav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </header>
+  </div>
+  <div class="div_line"></div>
+  <div class="div1">
+  Scriptor is a minimal, clean,
+     modern & responsive Ghost theme for writers
+</div>
+<div class="div_line"></div>
+  <main>
+      <article class="Posts">
+          <time class="time" datetime="2020-01-13 13:34:45 ">13 september 2020
+          </time>
+          <header class="Title_Posts">
+            <p>Welcome to Ghost Blog!</p>
+          </header>
+          <div class="div3">Posted by
+              <a href="about.html">Dennis Brooks</a> in
+              <a href="about.html">Dennis Brooks</a>
+          </div>
+          <img src="img_1.png" alt="img_1">
+          <div class="div4">Hey! Welcome to Ghost, it's great to have you :)
+              We know that first impressions are important, so we've populated
+              your new site with some initial Getting Started posts that will..</div>
+        <footer>
+          <div class="Continue_one">
+            <a href="#">Continue reding →</a></div>
+          </div>
+        </footer>
+      </article>
+
+</main>
+  <footer>
+      <div class="icon">
+          <ul>
+            <li><a href="#" class="sb"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-pinterest-p"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" class="sb"><i class="fab fa-git"></i></a></li>
+          </ul>
+   &copy; Papakin 2020р 3151
+ </footer>
+
+</body>
+</html>
